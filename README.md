@@ -24,6 +24,15 @@ Movie API — это приложение для управления польз
    pip install -r requirements.txt
    ```
 
+4. **Создайте в корне проекта файл .env для испольщования PostgreSQL или используйте SQLite**
+
+    ```
+    POSTGRES_USER=django_user 
+    POSTGRES_PASSWORD=mysecretpassword
+    OSTGRES_DB=django
+    DB_HOST=db
+    DB_PORT=5432
+    ```
 4. **Применить миграции**
 
    ```bash
@@ -36,7 +45,7 @@ Movie API — это приложение для управления польз
    python manage.py runserver
    ```
 
-Теперь ты можешь использовать API по адресу `http://127.0.0.1:8000/`.
+Теперь ты можешь использовать API по адресу `http://127.0.0.1:8000/`
 
 
 ## Использование API
