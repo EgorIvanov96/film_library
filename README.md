@@ -24,7 +24,7 @@ Movie API — это приложение для управления польз
    pip install -r requirements.txt
    ```
 
-4. **Создайте в корне проекта файл .env для испольщования PostgreSQL или используйте SQLite**
+4. **Создайте в корне проекта файл .env для испольщования БД PostgreSQL или используйте БД SQLite**
 
     ```
     POSTGRES_USER=django_user 
