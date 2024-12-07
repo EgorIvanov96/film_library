@@ -16,7 +16,7 @@ class UserCustomViewSet(UserViewSet):
     serializer_class = UsersSerializer
 
     def destroy(self, request, *args, **kwargs):
-        """Удаление только своего пользователя."""
+        """Удаление только своего профиля."""
     
         user = self.get_object()
         if user != request.user:
